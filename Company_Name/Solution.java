@@ -42,6 +42,17 @@ class Employee{
     }
 }
 
+class Company{
+    private String CompanyName;
+    private Employee[] employees;
+    private int numEmployees;
+
+    Company(String CompanyName, Employee[] employees, int numEmployees){
+        this.CompanyName=CompanyName;
+        this.employees=new Employee[numEmployees];
+    }
+}
+
 
 
 public class Solution {
